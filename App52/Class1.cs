@@ -2,7 +2,7 @@
 
 namespace App52;
 
-internal class Class1 : DependencyObject {
+public class Class1 {
 
     public static int GetMyProperty(DependencyObject obj) {
         return (int)obj.GetValue(MyPropertyProperty);
